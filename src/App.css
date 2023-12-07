@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  background: "000";
+  height: max-content;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  width: 100%;
+  background: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  position: absolute;
+  top: 0;
+}
+
+.webcam {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 30rem;
+  width: 100%;
+}
+
+.webcam button {
+  margin-top: 1rem;
+  border: none;
+  background: black;
+  height: 3rem;
+  width: 10rem;
+  color: white;
+  border-radius: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.webcam button:hover {
+  background: rgb(62, 62, 62);
+}
+
+.description {
+  width: 70%;
+}
+
+.analysisContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
